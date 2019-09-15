@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a5f17c54584a67b7fe58665965f15, type: 3}
+  m_Name: AssetProcessEventRecord
+  m_EditorClassIdentifier: 
+  m_events:
+  - m_kind: 1
+    m_timestampUtc: 132130157916648660
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 477990026c8de42f7a0f82abc34e1f3c
+    m_nodeId: 74cf35a6-5ad1-4e4c-b7fc-4c52ccebb40e
+    m_nodeName: Create Prefab From Group
+    m_description: Exception of type 'UnityEngine.AssetGraph.NodeException' was thrown.
+    m_howToFix: See reason for detail.
+  - m_kind: 1
+    m_timestampUtc: 132130159055321270
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 477990026c8de42f7a0f82abc34e1f3c
+    m_nodeId: 74cf35a6-5ad1-4e4c-b7fc-4c52ccebb40e
+    m_nodeName: Create Prefab From Group
+    m_description: Exception of type 'UnityEngine.AssetGraph.NodeException' was thrown.
+    m_howToFix: See reason for detail.
+  - m_kind: 0
+    m_timestampUtc: 132130165159628490
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 477990026c8de42f7a0f82abc34e1f3c
+    m_nodeId: 3f0cf050-e41f-4b89-98a5-f71305d691fb
+    m_nodeName: Generate Asset
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132130165666681020
+    m_assetName: p1_stand.png
+    m_assetGuid: a2332c3ff581544eb8be4e42c2370dc3
+    m_graphGuid: 477990026c8de42f7a0f82abc34e1f3c
+    m_nodeId: 3f0cf050-e41f-4b89-98a5-f71305d691fb
+    m_nodeName: Generate Asset
+    m_description: 
+    m_howToFix: 
+  m_errorEventCount: 2
+  m_infoEventCount: 2
+  m_version: 1
+  m_processStartIndex: 0
