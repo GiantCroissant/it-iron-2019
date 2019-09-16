@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4bc21567f434b598a3c96ba4946372, type: 3}
+  m_Name: AssetReferenceDB
+  m_EditorClassIdentifier: 
+  m_assets:
+  - m_assetDatabaseId: e9d1aa02719dd42839efb22aa69b9bec
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: ae68cabba83c24c8387279277b4320e6
+    m_importFrom: Assets/_/Design Assets/Monsters/001.json
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: f1258bb5ddb5046849ad1089616db420
+    m_importFrom: Assets/_/Design Assets/Monsters/002.json
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 57e42ce94090f4ee58edd3bfda84fe5a
+    m_importFrom: Assets/_/Scripts/Editor/Custom - AssetGraph
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 94394237a7f8247359fc71ce4c7a2557
+    m_importFrom: Assets/_/Scripts/Editor/Custom - AssetGraph/CreateMonsterData.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: eb83c844d405d4a7ca952dea6c14de19
+    m_importFrom: Assets/_/Scripts/Editor/Normal Code/MonsterPrefabCreation.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 635ba8b90f4624fbf86f94a2eab7251c
+    m_importFrom: Assets/_/Scripts/Editor/Normal Code/MonsterAssetCreation.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1e439161ab8d34d0c85e8082d2477bf8
+    m_importFrom: Assets/_/Graphs/AssetGraph - Monster.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 70611ff1f57624872ac1a2befc3f4ed1
+    m_importFrom: Assets/AssetGraph/Cache
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 781f5173551ec4f1c9a9386f00f52b66
+    m_importFrom: Assets/AssetGraph/Cache/AssetBundleBuildMap.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 9f38618b5b01f451e919159403bda4d8
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetProcessEventRecord.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 44d80734aa5fe49fda0a0ecd22d4a1ad
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/GeneratedAssets/eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e/StandaloneOSX
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1e6ac729ca22f44daaac49838ae89d7c
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/GeneratedAssets/eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e/StandaloneOSX/57122b04-8739-46bb-b435-280240aea6ad
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4647f216dfa854a85b6a9c8c44bf1150
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/GeneratedAssets/eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e/StandaloneOSX/57122b04-8739-46bb-b435-280240aea6ad/001.json.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: dd10ee0eeafdd449cbffcf9516b75491
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/GeneratedAssets/eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e/StandaloneOSX/57122b04-8739-46bb-b435-280240aea6ad/002.json.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a8380d90d3a8e44059bbcd4f1838284d
+    m_importFrom: Assets/_/Scripts/Editor/Custom - AssetGraph/CreateMonsterPrefab.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: fbde0714359ba405a8efdfff08178732
+    m_importFrom: Assets/_/Art Assets/Monsters/001/stand.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e29a4819b59d147a6894b93ced87df31
+    m_importFrom: Assets/_/Art Assets/Monsters/002/stand.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: df2b1b6d8c7ea4ed6b3b4061498b54f3
+    m_importFrom: Assets/Plugins/Newtonsoft.Json.dll
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 8415ff8430eb4492c9172efd2dca49b9
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e3c6d9699fa74421385ee903a03509e6
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/2147483647
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 71fa645c2cfb849609b2cf021ab6df78
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 60db7cbd58289442cae0c13cdd8009b7
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 5f8ecc0b3b8cd4d7cbd9b84d7a6d7a78
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/0.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6c0973cdbe8cb4a42baa695646f25245
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/1.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a2bd0d293ea4343c68e5c307bdba134c
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/stand.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: e2423c09fb53141b2822d5a4a982c3a3
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/monster-000.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 91ec959b70f44405caa6607512bba480
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/monster-001.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 042b6b1ebd1f1422ea0121fca3cc42be
+    m_importFrom: Assets/_/Exported/Monsters/001.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 92a19bba01ec2428da6dc2776282a52e
+    m_importFrom: Assets/_/Exported/Monsters/002.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: add4999927ed84b5bb79291fa2e7f0be
+    m_importFrom: Assets/_/Exported/Monsters/monster-000.prefab
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a2d0bd6810c7a4b7b9bdc8adeea4d5e5
+    m_importFrom: Assets/_/Exported/Monsters/monster-001.prefab
+    m_exportTo: 
+    m_variantName: 
+  m_version: 2

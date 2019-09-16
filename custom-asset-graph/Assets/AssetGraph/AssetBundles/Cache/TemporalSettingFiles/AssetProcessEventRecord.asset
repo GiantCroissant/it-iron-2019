@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a5f17c54584a67b7fe58665965f15, type: 3}
+  m_Name: AssetProcessEventRecord
+  m_EditorClassIdentifier: 
+  m_events:
+  - m_kind: 1
+    m_timestampUtc: 132131108561369510
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e
+    m_nodeName: Generate Asset
+    m_description: UnityEngine.AssetGraph.AssetGraphException:Generate Asset :Monster
+      Data returned success, but generated asset not found.
+    m_howToFix: See Console for detail.
+  - m_kind: 1
+    m_timestampUtc: 132131108821133150
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e
+    m_nodeName: Generate Asset
+    m_description: UnityEngine.AssetGraph.AssetGraphException:Generate Asset :Monster
+      Data returned success, but generated asset not found.
+    m_howToFix: See Console for detail.
+  - m_kind: 1
+    m_timestampUtc: 132131109463809460
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e
+    m_nodeName: Generate Asset
+    m_description: UnityEngine.AssetGraph.AssetGraphException:Generate Asset :Monster
+      Data returned success, but generated asset not found.
+    m_howToFix: See Console for detail.
+  - m_kind: 1
+    m_timestampUtc: 132131110553000180
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e
+    m_nodeName: Generate Asset
+    m_description: UnityEngine.AssetGraph.AssetGraphException:Generate Asset :Monster
+      Data returned success, but generated asset not found.
+    m_howToFix: See Console for detail.
+  - m_kind: 0
+    m_timestampUtc: 132131110805380060
+    m_assetName: 001.asset
+    m_assetGuid: 042b6b1ebd1f1422ea0121fca3cc42be
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e
+    m_nodeName: Generate Asset
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131110807444040
+    m_assetName: 002.asset
+    m_assetGuid: 92a19bba01ec2428da6dc2776282a52e
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e
+    m_nodeName: Generate Asset
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131138167335900
+    m_assetName: MyPrefab0.prefab
+    m_assetGuid: 03c058c5278c942e7a3ea2cf3a2d6daa
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131141357604480
+    m_assetName: MyPrefab0.prefab
+    m_assetGuid: 03c058c5278c942e7a3ea2cf3a2d6daa
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131141360480600
+    m_assetName: MyPrefab1.prefab
+    m_assetGuid: 513caaa33b12f43edabe9215c479b21d
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131141819365610
+    m_assetName: MyPrefabstand.prefab
+    m_assetGuid: 7fbe13ab999dd4ab5821b1e95e9a17b1
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131142084017720
+    m_assetName: MyPrefab0.prefab
+    m_assetGuid: 03c058c5278c942e7a3ea2cf3a2d6daa
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131142200352520
+    m_assetName: MyPrefab0.prefab
+    m_assetGuid: 03c058c5278c942e7a3ea2cf3a2d6daa
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131142202704500
+    m_assetName: MyPrefab1.prefab
+    m_assetGuid: 513caaa33b12f43edabe9215c479b21d
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131144368235090
+    m_assetName: monster-000.prefab
+    m_assetGuid: add4999927ed84b5bb79291fa2e7f0be
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131144370882490
+    m_assetName: monster-001.prefab
+    m_assetGuid: a2d0bd6810c7a4b7b9bdc8adeea4d5e5
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131145264172990
+    m_assetName: 001.asset
+    m_assetGuid: 042b6b1ebd1f1422ea0121fca3cc42be
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e
+    m_nodeName: Generate Asset
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131145265738610
+    m_assetName: 002.asset
+    m_assetGuid: 92a19bba01ec2428da6dc2776282a52e
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e
+    m_nodeName: Generate Asset
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131145268942320
+    m_assetName: monster-000.prefab
+    m_assetGuid: add4999927ed84b5bb79291fa2e7f0be
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  - m_kind: 0
+    m_timestampUtc: 132131145271374170
+    m_assetName: monster-001.prefab
+    m_assetGuid: a2d0bd6810c7a4b7b9bdc8adeea4d5e5
+    m_graphGuid: 1e439161ab8d34d0c85e8082d2477bf8
+    m_nodeId: 7e74490e-da20-48ca-ba03-605af51fc8c3
+    m_nodeName: Create Prefab From Group
+    m_description: 
+    m_howToFix: 
+  m_errorEventCount: 4
+  m_infoEventCount: 15
+  m_version: 1
+  m_processStartIndex: 0
