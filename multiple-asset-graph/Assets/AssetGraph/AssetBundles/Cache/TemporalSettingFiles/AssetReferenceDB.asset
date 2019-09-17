@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4bc21567f434b598a3c96ba4946372, type: 3}
+  m_Name: AssetReferenceDB
+  m_EditorClassIdentifier: 
+  m_assets:
+  - m_assetDatabaseId: 5e662775ec8554a929b373a0c45fbaab
+    m_importFrom: Assets/_/Scripts/Editor/BuildTask.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: b622669c00efd4877ba4bd8583658c84
+    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 89636bfe143534b4da8d250d4c3e63d4
+    m_importFrom: Assets/_/Art Assets/Monsters/001/001-stand.png
+    m_exportTo: /Users/apprentice/Work/GiantCroissant/it-iron-2019/multiple-asset-graph/Assets/_/Exported
+      1/001-stand.png
+    m_variantName: 
+  - m_assetDatabaseId: c7120003a2dae4435857207b24b452ee
+    m_importFrom: Assets/_/Art Assets/Monsters/002/002-stand.png
+    m_exportTo: /Users/apprentice/Work/GiantCroissant/it-iron-2019/multiple-asset-graph/Assets/_/Exported
+      1/002-stand.png
+    m_variantName: 
+  - m_assetDatabaseId: 6bd16f9f16b394caa9f5dceb268e6a12
+    m_importFrom: Assets/_/Graph Configs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 942274480730c444682b1cad0d86a8a4
+    m_importFrom: Assets/_/Graph Configs/Batch Build Config.asset
+    m_exportTo: 
+    m_variantName: 
+  m_version: 2
