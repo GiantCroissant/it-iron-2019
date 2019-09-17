@@ -6397,10 +6397,6 @@ MonoBehaviour:
     m_importFrom: Packages/com.unity.timeline/Runtime/Attributes
     m_exportTo: 
     m_variantName: 
-  - m_assetDatabaseId: f02e256ef030e4328a0ba14c6bd477fe
-    m_importFrom: Assets/_/Scenes
-    m_exportTo: 
-    m_variantName: 
   - m_assetDatabaseId: 9541d86e2fd84c1d9990edf0852d74ab
     m_importFrom: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshPro.cs
     m_exportTo: 
@@ -7943,8 +7939,7 @@ MonoBehaviour:
     m_variantName: 
   - m_assetDatabaseId: c37700d87509e42589dd0f0e8b4c0483
     m_importFrom: Assets/_/Art Assets/Tile/box.png
-    m_exportTo: /Users/apprentice/Work/GiantCroissant/it-iron-2019/simple-asset-graph/Assets/_/Exported/Assets/_/Art
-      Assets/Tile/box.png
+    m_exportTo: /Users/apprentice/Work/GiantCroissant/it-iron-2019/simple-asset-graph/Assets/_/Exported/box.png
     m_variantName: 
   - m_assetDatabaseId: 5fa5a4d85cee44cc3a050e131b9b6098
     m_importFrom: Packages/com.unity.assetgraph/Editor/GUI/GraphicResources/NodeImage/node3@2x.png
@@ -8249,8 +8244,7 @@ MonoBehaviour:
     m_variantName: 
   - m_assetDatabaseId: 0a09794cbd5874f1390d37ba6a955c4d
     m_importFrom: Assets/_/Art Assets/Character/p1_jump.png
-    m_exportTo: /Users/apprentice/Work/GiantCroissant/it-iron-2019/simple-asset-graph/Assets/_/Exported/Assets/_/Art
-      Assets/Character/p1_jump.png
+    m_exportTo: /Users/apprentice/Work/GiantCroissant/it-iron-2019/simple-asset-graph/Assets/_/Exported/p1_jump.png
     m_variantName: 
   - m_assetDatabaseId: a5b60c4c9c31a48de997f40e86fce8dd
     m_importFrom: Packages/com.unity.assetgraph/Editor/GUI/GraphicResources/NodeImage/node0@2x.png
@@ -8327,8 +8321,7 @@ MonoBehaviour:
     m_variantName: 
   - m_assetDatabaseId: ae035b4db8baa44efa29cb5783e33907
     m_importFrom: Assets/_/Art Assets/Character/p1_stand.png
-    m_exportTo: /Users/apprentice/Work/GiantCroissant/it-iron-2019/simple-asset-graph/Assets/_/Exported/Assets/_/Art
-      Assets/Character/p1_stand.png
+    m_exportTo: /Users/apprentice/Work/GiantCroissant/it-iron-2019/simple-asset-graph/Assets/_/Exported/p1_stand.png
     m_variantName: 
   - m_assetDatabaseId: ec7c645d93308c04d8840982af12101e
     m_importFrom: Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Sprite

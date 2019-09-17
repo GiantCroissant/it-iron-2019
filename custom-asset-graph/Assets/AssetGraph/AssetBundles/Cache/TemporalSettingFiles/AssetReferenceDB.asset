@@ -65,14 +65,6 @@ MonoBehaviour:
     m_importFrom: Assets/AssetGraph/AssetBundles/Cache/GeneratedAssets/eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e/StandaloneOSX/57122b04-8739-46bb-b435-280240aea6ad
     m_exportTo: 
     m_variantName: 
-  - m_assetDatabaseId: 4647f216dfa854a85b6a9c8c44bf1150
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/GeneratedAssets/eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e/StandaloneOSX/57122b04-8739-46bb-b435-280240aea6ad/001.json.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: dd10ee0eeafdd449cbffcf9516b75491
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/GeneratedAssets/eeb3a6b3-b87a-4578-b47e-bfa4bdf9a51e/StandaloneOSX/57122b04-8739-46bb-b435-280240aea6ad/002.json.asset
-    m_exportTo: 
-    m_variantName: 
   - m_assetDatabaseId: a8380d90d3a8e44059bbcd4f1838284d
     m_importFrom: Assets/_/Scripts/Editor/Custom - AssetGraph/CreateMonsterPrefab.cs
     m_exportTo: 
@@ -103,42 +95,6 @@ MonoBehaviour:
     m_variantName: 
   - m_assetDatabaseId: 60db7cbd58289442cae0c13cdd8009b7
     m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 5f8ecc0b3b8cd4d7cbd9b84d7a6d7a78
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/0.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 6c0973cdbe8cb4a42baa695646f25245
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/1.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: a2bd0d293ea4343c68e5c307bdba134c
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/stand.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: e2423c09fb53141b2822d5a4a982c3a3
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/monster-000.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 91ec959b70f44405caa6607512bba480
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/Prefabs/7e74490e-da20-48ca-ba03-605af51fc8c3/StandaloneOSX/monster-001.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 042b6b1ebd1f1422ea0121fca3cc42be
-    m_importFrom: Assets/_/Exported/Monsters/001.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 92a19bba01ec2428da6dc2776282a52e
-    m_importFrom: Assets/_/Exported/Monsters/002.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: add4999927ed84b5bb79291fa2e7f0be
-    m_importFrom: Assets/_/Exported/Monsters/monster-000.prefab
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: a2d0bd6810c7a4b7b9bdc8adeea4d5e5
-    m_importFrom: Assets/_/Exported/Monsters/monster-001.prefab
     m_exportTo: 
     m_variantName: 
   m_version: 2
