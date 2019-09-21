@@ -12,6 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11cd75004d5b84ef08d52cd8912277d3, type: 3}
   m_Name: BatchBuildConfig
   m_EditorClassIdentifier: 
-  m_collections: []
+  m_collections:
+  - m_name: 2 jobs graph
+    m_graphGuids:
+    - 2351466cac202478eb0569754c1bd4e5
+    - 6430a54e344ff4ecbbdf9f72afb6739a
+    m_guid: e5981e636bbbf48229337842f1434426
+  - m_name: 2 jobs graph
+    m_graphGuids:
+    - 2351466cac202478eb0569754c1bd4e5
+    - 6430a54e344ff4ecbbdf9f72afb6739a
+    m_guid: e5981e636bbbf48229337842f1434426
   m_buildTargets: 
   m_version: 1

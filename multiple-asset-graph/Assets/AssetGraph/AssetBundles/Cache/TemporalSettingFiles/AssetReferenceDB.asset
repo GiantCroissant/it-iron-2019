@@ -35,8 +35,28 @@ MonoBehaviour:
     m_importFrom: Assets/_/Graph Configs
     m_exportTo: 
     m_variantName: 
-  - m_assetDatabaseId: 942274480730c444682b1cad0d86a8a4
-    m_importFrom: Assets/_/Graph Configs/Batch Build Config.asset
+  - m_assetDatabaseId: 2351466cac202478eb0569754c1bd4e5
+    m_importFrom: Assets/_/Graphs/AssetGraph - 1.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 6430a54e344ff4ecbbdf9f72afb6739a
+    m_importFrom: Assets/_/Graphs/AssetGraph - 2.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 3a1a87feb850b48bab8d824627e5ea15
+    m_importFrom: Assets/AssetGraph/Cache/AssetBundleBuildMap.asset
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1bdc3b21f3edb4bf095acba0473564ca
+    m_importFrom: Assets/AssetGraph/AssetBundles/SavedSettings/BatchBuildConfig
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 1127b03e98e24439f9b93c9855b4de1d
+    m_importFrom: Assets/AssetGraph/AssetBundles/SavedSettings
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: a67fa01f454f5450492bd9118d47e2be
+    m_importFrom: Assets/AssetGraph/AssetBundles/SavedSettings/BatchBuildConfig/BatchBuildConfig.asset
     m_exportTo: 
     m_variantName: 
   m_version: 2
