@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: FM - Monster Manager Despawn
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Monster
+      Destroyed","$type":"System.String"}},"position":{"x":-305.0,"y":-248.0},"guid":"64ccdd30-7d6a-4855-ba67-cc5e9ebcc1b1","$version":"A","$type":"Bolt.CustomEvent","$id":"9"},{"defaultValues":{},"position":{"x":-102.0,"y":17.0},"guid":"4669aa00-7df3-4411-addb-52d74a97afec","$version":"A","$type":"Bolt.GenericSubtract","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"monsterCount","$type":"System.String"},"object":null},"position":{"x":-300.0,"y":-52.0},"guid":"89e9b837-7c83-4325-8ec9-85e605c73346","$version":"A","$type":"Bolt.GetVariable","$id":"13"},{"type":"System.Int32","value":{"$content":1,"$type":"System.Int32"},"defaultValues":{},"position":{"x":-233.0,"y":100.0},"guid":"e8ace1df-5d7f-4290-949b-772396c9f94c","$version":"A","$type":"Bolt.Literal","$id":"15"},{"kind":"Object","defaultValues":{"name":{"$content":"monsterCount","$type":"System.String"},"object":null},"position":{"x":47.0,"y":-196.0},"guid":"e620f2dd-db71-4945-8b18-2ace2786a25b","$version":"A","$type":"Bolt.SetVariable","$id":"17"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"assign","guid":"06abff8d-c80a-48a9-b7fd-738ba27eb608","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"minuend","guid":"8a2a5426-29c5-4bd3-8a6f-ba2a47053141","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"subtrahend","guid":"24cc2cc5-6cd9-442e-af55-7d3353c66868","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"difference","destinationUnit":{"$ref":"17"},"destinationKey":"input","guid":"6cfa80ca-7f82-44d5-bcc5-6fe18f2f9c58","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
