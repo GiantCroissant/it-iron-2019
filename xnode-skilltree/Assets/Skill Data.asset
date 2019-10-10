@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b1c30df75394f699e66a2587382fd9, type: 3}
+  m_Name: Skill Data
+  m_EditorClassIdentifier: 
+  skillItems:
+  - id: skill-fire-1300
+    dependOnIds: []
+  - id: skill-fire-1400
+    dependOnIds:
+    - skill-fire-1300
+  - id: skill-fire-1600
+    dependOnIds:
+    - skill-fire-1300
+  - id: skill-fire-2100
+    dependOnIds:
+    - skill-fire-1400
+  - id: skill-fire-2200
+    dependOnIds:
+    - skill-fire-1400
+  - id: skill-fire-2500
+    dependOnIds:
+    - skill-fire-1600
+  - id: skill-fire-2700
+    dependOnIds:
+    - skill-fire-1600
+  - id: skill-fire-3100
+    dependOnIds:
+    - skill-fire-2200
+    - skill-fire-2700

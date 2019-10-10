@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -328, y: -136}
+  position: {x: -344, y: -104}
   ports:
     keys:
     - value
@@ -53,6 +53,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+  skillId: skill-fire-1300
+  skillName: Fire Ball
   value: 0
   result1: 0
   result2: 0
@@ -72,6 +74,66 @@ MonoBehaviour:
   - {fileID: -464741226594142232}
   - {fileID: 540381060984581619}
   - {fileID: 1292419921364125970}
+  - {fileID: 273569610520098223}
+  - {fileID: 7144747121425920362}
+  - {fileID: 2778486336830352470}
+  - {fileID: 4235216271851547053}
+  - {fileID: 8708755741022512704}
+--- !u!114 &273569610520098223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4992269a5d0cb4fa7bce41a5f309d0d2, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: -392}
+  ports:
+    keys:
+    - value
+    - result1
+    - result2
+    values:
+    - _fieldName: value
+      _node: {fileID: 273569610520098223}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: result1
+        node: {fileID: 540381060984581619}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result1
+      _node: {fileID: 273569610520098223}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result2
+      _node: {fileID: 273569610520098223}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillId: skill-fire-2100
+  skillName: Giga Ball
+  value: 0
+  result1: 0
+  result2: 0
 --- !u!114 &540381060984581619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,7 +147,7 @@ MonoBehaviour:
   m_Name: Skill
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -72, y: -200}
+  position: {x: -136, y: -328}
   ports:
     keys:
     - value
@@ -108,7 +170,10 @@ MonoBehaviour:
       _node: {fileID: 540381060984581619}
       _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: value
+        node: {fileID: 273569610520098223}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -117,11 +182,16 @@ MonoBehaviour:
       _node: {fileID: 540381060984581619}
       _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: value
+        node: {fileID: 7144747121425920362}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+  skillId: skill-fire-1400
+  skillName: Flame
   value: 0
   result1: 0
   result2: 0
@@ -138,7 +208,7 @@ MonoBehaviour:
   m_Name: Skill
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -72, y: -40}
+  position: {x: -152, y: 152}
   ports:
     keys:
     - value
@@ -161,7 +231,10 @@ MonoBehaviour:
       _node: {fileID: 1292419921364125970}
       _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: value
+        node: {fileID: 2778486336830352470}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -170,11 +243,245 @@ MonoBehaviour:
       _node: {fileID: 1292419921364125970}
       _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 4235216271851547053}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillId: skill-fire-1600
+  skillName: Burning Hands
+  value: 0
+  result1: 0
+  result2: 0
+--- !u!114 &2778486336830352470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4992269a5d0cb4fa7bce41a5f309d0d2, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 72, y: 72}
+  ports:
+    keys:
+    - value
+    - result1
+    - result2
+    values:
+    - _fieldName: value
+      _node: {fileID: 2778486336830352470}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: result1
+        node: {fileID: 1292419921364125970}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result1
+      _node: {fileID: 2778486336830352470}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
       connections: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: result2
+      _node: {fileID: 2778486336830352470}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillId: skill-fire-2500
+  skillName: Burning Hammer
+  value: 0
+  result1: 0
+  result2: 0
+--- !u!114 &4235216271851547053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4992269a5d0cb4fa7bce41a5f309d0d2, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 72, y: 296}
+  ports:
+    keys:
+    - value
+    - result1
+    - result2
+    values:
+    - _fieldName: value
+      _node: {fileID: 4235216271851547053}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: result2
+        node: {fileID: 1292419921364125970}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result1
+      _node: {fileID: 4235216271851547053}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 8708755741022512704}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result2
+      _node: {fileID: 4235216271851547053}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillId: skill-fire-2700
+  skillName: Fire Blossom
+  value: 0
+  result1: 0
+  result2: 0
+--- !u!114 &7144747121425920362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4992269a5d0cb4fa7bce41a5f309d0d2, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 88, y: -152}
+  ports:
+    keys:
+    - value
+    - result1
+    - result2
+    values:
+    - _fieldName: value
+      _node: {fileID: 7144747121425920362}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: result2
+        node: {fileID: 540381060984581619}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result1
+      _node: {fileID: 7144747121425920362}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result2
+      _node: {fileID: 7144747121425920362}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: value
+        node: {fileID: 8708755741022512704}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillId: skill-fire-2200
+  skillName: Fire Arrow
+  value: 0
+  result1: 0
+  result2: 0
+--- !u!114 &8708755741022512704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4992269a5d0cb4fa7bce41a5f309d0d2, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 328, y: 40}
+  ports:
+    keys:
+    - value
+    - result1
+    - result2
+    values:
+    - _fieldName: value
+      _node: {fileID: 8708755741022512704}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: result1
+        node: {fileID: 4235216271851547053}
+        reroutePoints: []
+      - fieldName: result2
+        node: {fileID: 7144747121425920362}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result1
+      _node: {fileID: 8708755741022512704}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: result2
+      _node: {fileID: 8708755741022512704}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillId: skill-fire-3100
+  skillName: Holy Circle
   value: 0
   result1: 0
   result2: 0
